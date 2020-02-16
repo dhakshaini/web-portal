@@ -1,0 +1,107 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(pet.jpg) no-repeat;
+  background-size: cover;
+}
+.details{
+  top: 30%;
+  left: 50%;
+  margin-left: 250px;
+  margin-top: 100px;
+  line-height: 35px;
+  padding: 15px;
+  width: 1000px;
+  height: 1000px;
+
+}
+.textbox{
+  width: 500px;
+  overflow: hidden;
+  color: pink;
+  font-size: 20px;
+  padding:8px 0;
+  margin: 8px 0;
+  float: left;
+  border-bottom: 1px solid;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: pink;
+  font-size: 18px;
+  width: 50%;
+  float: left;
+}
+.btn{
+  top: 50%;
+  left: 50%;
+   width: 70px;
+   height: 30px;
+margin-left: 300px;
+   margin-top: 250px;
+float: center;
+   background: none;
+   border: 2px solid ;
+   color: pink;
+   padding: 5px ;
+}
+.bdetails{
+  top: 250px;
+  left: 50%;
+  font-size: 30px;
+  margin-left: 300px;
+  margin-top: 500px;
+  line-height: 35px;
+  padding: 15px;
+  width: 5000px;
+  height: 100px;
+}
+.white{
+  top: 90%;
+  left: 50%;
+  font-size: 30px;
+  margin-left: 800px;
+  margin-top: 500px;
+  line-height: 35px;
+  padding: 15px;
+  width: 5000px;
+  height: 1px;
+  color: white;
+}
+.box{
+  top: 30%;
+  left: 50%;
+  margin-left: 250px;
+  margin-top: 100px;
+  line-height: 35px;
+  padding: 15px;
+  width: 1000px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 767px) {
+  .details {
+    margin: 0;
+    display: inline-block;
+  }
+  .det {
+    margin: 0;
+    display: inline-block;
+    width: 100vw;
+  }
+  output {
+    font-size: 1.5em;
+  }
+}
